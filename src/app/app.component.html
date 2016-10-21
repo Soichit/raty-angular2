@@ -1,3 +1,29 @@
 <h1>
   {{title}}
 </h1>
+<hr />
+<br />
+
+<h1>Overall <rating [(ngModel)]="starsCount" [readonly]="true"></rating></h1>
+<br />
+
+ 
+<h2>Usability <rating [(ngModel)]="starsCount"></rating></h2>
+<p>How intuitive and easy to use was the UI?</p>
+<br />
+
+<h2>Time <rating [(ngModel)]="starsCount"></rating></h2>
+<p>Did our app help you save time?</p>
+<br />
+
+<h2>Communication <rating [(ngModel)]="starsCount"></rating></h2>
+<p>How did our app improve your communication with the waitstaff?</p>
+<br />
+
+
+
+<!--4.  Accessibility - how difficult was it to access our mobile site?
+5.  Aesthetics - how do you like the feel of our app?
+6.  Value - how did our app improve your overall dining experience?
+ -->
+ 
