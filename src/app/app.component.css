@@ -1,17 +1,14 @@
-div.dialog-div {
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.58);
-    z-index: 10;
+
+div {
+    text-align: center;
+    background: grey;
+    width: 95%;
+    height: 95%;
+    border-radius: 15px;
 }
 
-md-card.dialog {
-    margin-top: 30vh;
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+h3 {
+    margin-bottom: 5px;
 }
 
 span.table-id {
@@ -20,35 +17,6 @@ span.table-id {
     display: block;
 }
 
-button {
-    display: block;
-    margin: auto;
-    margin-top: 15px;
-}
-
-/*md-grid-list.button-grid*/
-  
-button {
-width: 95%;
-height: 95%;
-}
-
-button.help.active {
-background-color: #FFC107;
-}
-
-button.water.active {
-background-color: #2196F3;
-}
-
-button.pay.active {
-background-color: #4CAF50;
-}
-
-button.dnd.active {
-background-color: #FF5722;
-}
-
-button.logout {
-width: 97.5%;
+.logout {
+    width: 97.5%;
 }

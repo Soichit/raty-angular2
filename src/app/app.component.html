@@ -6,49 +6,45 @@
  
 <h2>Usability <rating [(ngModel)]="starsCount"></rating></h2>
 <p>How intuitive and easy to use was the UI?</p>
+<hr />
 <br />
 
 
 
 <md-grid-list class="button-grid" cols="2" rowHeight="100px">
   <md-grid-tile colspan="1">
-    <button md-raised-button class="help active">
-      <i class="material-icons">notifications</i>
-      <br>
-      Help
-    </button>
+      <div>
+        <h3>Easy to use?</h3>
+        <rating [(ngModel)]="starsCount"></rating>
+      </div>
   </md-grid-tile>
 
   <md-grid-tile colspan="1">
-    <button md-raised-button class="dnd active" >
-      <i class="material-icons">block</i>
-      <br>
-      Do Not Disturb
-    </button>
+    <div>
+      <h3>Saved time?</h3>
+      <rating [(ngModel)]="starsCount"></rating>
+    </div>
   </md-grid-tile>
 
   <md-grid-tile colspan="1">
-    <button md-raised-button class="pay">
-      <i class="material-icons">receipt</i>
-      <br>
-      Request Check
-    </button>
+    <div>
+      <h3>Waitstaff communication?</h3>
+      <rating [(ngModel)]="starsCount"></rating>
+    </div>
   </md-grid-tile>
 
   <md-grid-tile colspan="1">
-    <button md-raised-button class="water active">
-      <i class="material-icons">local_drink</i>
-      <br>
-      Water Refills
-    </button>
+    <div>
+      <h3>Mobile access?</h3>
+      <rating [(ngModel)]="starsCount"></rating>
+    </div>
   </md-grid-tile>
 
   <md-grid-tile colspan="2">
-    <button md-raised-button class="logout">
-      <i class="material-icons">power_settings_new</i>
-      <br>
-      Log Off Table
-    </button>
+    <div class="logout">
+      <h3>Overall dining experience</h3>
+      <rating [(ngModel)]="starsCount"></rating>
+    </div>
   </md-grid-tile>
 </md-grid-list>
  
