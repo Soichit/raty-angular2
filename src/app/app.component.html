@@ -4,46 +4,53 @@
 <hr />
 <br />
  
-<h2>Usability <rating [(ngModel)]="starsCount"></rating></h2>
+<!--<h2>Usability <rating [(ngModel)]="starsCount"></rating></h2>
 <p>How intuitive and easy to use was the UI?</p>
 <hr />
-<br />
-
+<br />-->
 
 
 <md-grid-list class="button-grid" cols="2" rowHeight="100px">
   <md-grid-tile colspan="1">
       <div>
         <h3>Easy to use?</h3>
-        <rating [(ngModel)]="starsCount"></rating>
+        <rating [(ngModel)]="stars1"></rating>
       </div>
   </md-grid-tile>
 
   <md-grid-tile colspan="1">
     <div>
       <h3>Saved time?</h3>
-      <rating [(ngModel)]="starsCount"></rating>
+      <rating [(ngModel)]="stars2"></rating>
     </div>
   </md-grid-tile>
 
   <md-grid-tile colspan="1">
     <div>
       <h3>Waitstaff communication?</h3>
-      <rating [(ngModel)]="starsCount"></rating>
+      <rating [(ngModel)]="stars3"></rating>
     </div>
   </md-grid-tile>
 
   <md-grid-tile colspan="1">
     <div>
       <h3>Mobile access?</h3>
-      <rating [(ngModel)]="starsCount"></rating>
+      <rating [(ngModel)]="stars4"></rating>
     </div>
   </md-grid-tile>
 
   <md-grid-tile colspan="2">
-    <div class="logout">
+    <div class="fullWidth">
       <h3>Overall dining experience</h3>
-      <rating [(ngModel)]="starsCount"></rating>
+      <rating [(ngModel)]="stars5"></rating>
+    </div>
+  </md-grid-tile>
+
+  <md-grid-tile colspan="2">
+    <div class="fullWidth">
+      <button md-raised-button class="submit" (click)="onSubmit()">
+        <h3>Submit</h3>
+      </button>
     </div>
   </md-grid-tile>
 </md-grid-list>
