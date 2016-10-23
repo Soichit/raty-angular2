@@ -8,10 +8,12 @@ import { RatingModule } from "ng2-rating";
 
 
 import { AppComponent } from './app.component';
+import { RatingsComponent } from './ratings/ratings.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RatingsComponent
   ],
   imports: [
     BrowserModule,
