@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { MaterialModule } from '@angular/material';
 import { RatingModule } from "ng2-rating";
+import { HttpService } from "./http.service";
 
 
 
@@ -23,7 +24,7 @@ import { RatingsComponent } from './ratings/ratings.component';
     RatingModule
 
   ],
-  providers: [],
+  providers: [HttpService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
