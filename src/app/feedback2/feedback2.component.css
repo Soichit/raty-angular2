@@ -6,6 +6,11 @@ md-input {
     width: 50%;
 }
 
+textarea {
+     border: 1px solid black;
+     font-size: medium;
+}
+
 .submit {
     background-color: #4CAF50;
 }
