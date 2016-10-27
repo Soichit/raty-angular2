@@ -10,11 +10,13 @@ import { HttpService } from "./http.service";
 
 import { AppComponent } from './app.component';
 import { RatingsComponent } from './ratings/ratings.component';
+import { Feedback1Component } from './feedback1/feedback1.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    RatingsComponent
+    RatingsComponent,
+    Feedback1Component
   ],
   imports: [
     BrowserModule,
